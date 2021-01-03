@@ -1,12 +1,12 @@
 const help = (prefix) => {
 	return `
-════•›ꪶ꯴᩠ꦽꦼ _*GUSTIAN BOT*_ ꪶ꯴᩠ꦽꦼꦼ‹•════
+═══•›ꪶ꯴᩠ꦽꦼ _*GUSTIAN BOT*_ ꪶ꯴᩠ꦽꦼꦼ‹•═══
 
-                      _THANKS BUAT_ :
-                      - *ridho03*
-                      - *Mhankbarbar*
-                      - *alfiansx*
-                      - *Aris187ID*
+        _THANKS BUAT_ :
+        - *ridho03*
+        - *Mhankbarbar*
+        - *alfiansx*
+        - *Aris187ID*
                        
 -----------------------------------------
 ꪶ꯴᩠ꦽꦼ _*Menu Sticker*_ ꪶ꯴᩠ꦽꦼꦼ‹
@@ -117,7 +117,7 @@ usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deact
 note : This command can be used if you are a group admin\n
 
 -----------------------------------------
-_*MODE BY AHMAD*_
+     _*MODE BY AHMAD*_
 -----------------------------------------`
 }
 
