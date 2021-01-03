@@ -489,12 +489,12 @@ async function starts() {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption:'*「 GUSTIAN BROADCAST 」*\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `*「 GUSTIAN BROADCAST 」*\n\n${body.slice(4)}`})
 						}
 						reply('Suksess Agan ganteng banget')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, '*「 GUSTIAN BROADCAST 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 GUSTIAN BROADCAST 」*\n\n${body.slice(4)}`)
 						}
 						reply('Suksess Agan ganteng banget')
 					}
